@@ -39,9 +39,9 @@ Technologies I used in this project:
 
 Project is deployed at AWS and can be access at:
 
-url: http://drakoc.info
-username: test
-password: test1234
+url: http://drakoc.info  
+username: test  
+password: test1234  
 
 
 Because of the size of the project and time limit, project is not 100% functional but it demonstrates acquired knowledge. **For the testing purposes, only data in Lucerne canton is populated**.
