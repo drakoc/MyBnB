@@ -1,0 +1,66 @@
+@media screen {
+
+    .page-container {
+        max-width: 100%;
+    }
+
+    .head-container {
+        background-color: rgba(15, 103, 108, 0.4);
+        height: 120px;
+    }
+
+    .body-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 350px;
+    }
+
+    .profile-item-name {
+        margin-left: 5%;
+
+    }
+
+    .profile-button-logout {
+        display: flex;
+        margin-top: 5%;
+        justify-content: center;
+
+    }
+
+    .head-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .image-container {
+        max-height: 120px;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .profile-image {
+        float: left;
+        margin-left: 20px;
+        width: 85%;
+        border-radius: 100%;
+    }
+
+    .profilename-container {
+        display: inline-block;
+        margin-left: 7%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .list-item {
+        background-color: #F2F2F2;
+        border-bottom: solid lightgray 1.5px;
+    }
+
+    img.list-item__thumbnail {
+        width: 18px;
+        margin-right: 10px;
+    }
+}

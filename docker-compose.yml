@@ -1,0 +1,32 @@
+version: '3'
+services:
+  database:
+    image: postgres:9.6.1
+    restart: always
+    env_file:
+      - dev.env
+    volumes:
+      - database:/var/lib/postgresql/data
+  app:
+    image: registry.gitlab.com/drakoc/myairbnb:latest
+    restart: always
+    env_file:
+      - dev.env
+    ports:
+      - '8070:8000'
+      - '3000:3000'
+      - '4321:22'
+    command: "/usr/sbin/sshd -D"
+    depends_on:
+      - database
+    links:
+      - database
+    volumes:
+      - ./app:/app
+      - ./media-files:/media-files
+      - ./frontend:/frontend
+      - ./static-files:/static-files
+      - ./scripts:/scripts
+
+volumes:
+  database:
