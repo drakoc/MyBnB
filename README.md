@@ -2,7 +2,7 @@
 
 **MyBnB** is my type of AirBnB app adapted for Swiss area. It was my final project as a Full-Stack Web Developer at [Propulsion Academy](https://propulsion.academy/) to demonstrate all technologies I learned at Academy.
 
-**MyBnB** is realized as a progressive web app (PWA) with a complete back-end and front-end solution. Since it is **PWA**, it is completely **optimized only for mobile phones**.
+**MyBnB** is realized as a progressive web app (PWA). Since it is **PWA**, it is completely **optimized only for mobile phones**.
 
 
 
