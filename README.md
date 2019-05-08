@@ -37,7 +37,7 @@ Technologies I used in this project:
 
 
 
-Project is deployed at AWS and can be access at:
+Project is deployed at [AWS](https://aws.amazon.com/) and can be access at:
 
 
 url: http://drakoc.info  
