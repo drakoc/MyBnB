@@ -12,7 +12,7 @@ Technologies I used in this project:
 
  * Python
  * [Django](https://www.djangoproject.com/)
- * [Django Rest](https://www.django-rest-framework.org/)
+ * [Django REST](https://www.django-rest-framework.org/)
  * [PostgreSQL](https://www.postgresql.org/)
 
 
